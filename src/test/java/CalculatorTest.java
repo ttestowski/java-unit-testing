@@ -23,7 +23,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Multiplication test")
     void testMultiplication() {
-        assertEquals(5, calculator.multiply(2, 3), "2 * 3 should equal 6");
+        assertEquals(6, calculator.multiply(2, 3), "2 * 3 should equal 6");
     }
 
     @Test
